@@ -1,0 +1,22 @@
+{
+  "school" : "XIX High School",
+  "class" : "5th"
+  "students":
+          [
+            {
+                "name" : "jim",
+                "id" : 0012,
+                "phone" : 12309843,
+            },
+            {
+                "name" : "joe",
+                "id" : 0013,
+                "phone" : 90313454,
+            },
+            {
+                "name" : "kim",
+                "id" : 0014,
+                "phone" : 56789032,
+            }
+          ]
+}
