@@ -6,4 +6,6 @@ page_content = request.content
 soup_parser = BeautifulSoup(page_content, "html.parser")
 #<span itemprop="price" content="847">847,00</span>
 page_element = soup_parser.find("span", {"itemprop": "price", "content" : "847"})
-print(page_element.text)
+item_price = (page_element.text)
+item_price = float(item_price.replace(",","."))
+print (item_price)
