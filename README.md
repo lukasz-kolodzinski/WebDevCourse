@@ -11,3 +11,4 @@ Repository contains files created during python web-developer course.
  
 _Python_ _libraries:_
 * requests 
+* beautifulsoup4
